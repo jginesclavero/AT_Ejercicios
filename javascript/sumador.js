@@ -6,3 +6,11 @@ function suma(){
 	 var res = document.getElementById("res");
          res.innerHTML = "="+ result.toString();
 };
+
+
+function aleatorio(){
+	var num1 = Math.floor((Math.random() * 100000) + 1);
+    var num2 = Math.floor((Math.random() * 100000) + 1);
+    var op = document.getElementById("op");
+    	op.innerHTML = num1 + "+" + num2;
+};
