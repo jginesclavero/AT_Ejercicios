@@ -1,0 +1,38 @@
+body {
+  background-color:blue;
+}
+
+#sandbox {
+	border:solid; 
+	font-family: "goudy-bookletter-1911-1", "goudy-bookletter-1911-2", "Baskerville","Georgia", serif; 
+	border-width: 1px; 
+	border-color: "rgb(21,11,11)";
+	overflow: hidden;
+	margin: 40px 0px 0px 30px;
+	padding: 20px;
+	width: 440px;
+	z-index: 2;
+	color: black;
+	font-size: 16px;
+}
+
+#sandbox h1{
+	margin: 0px 0px 20px 0px;
+	font-size: 56px;
+	letter-spacing: 2px;
+}
+
+#sandbox abbr{
+	cursor: help;
+	color: #ff2166;
+	border-bottom: #888 1px dashed;	
+}
+
+#sandbox p{
+	font-size: 30px;
+	margin: none;
+	width: auto;
+	line-height: 50px;
+
+
+}
