@@ -18,10 +18,18 @@ body {
 	box-shadow: 0 0 20px white;
 	/*background-color: rgba(180,180,140,0.6);*/
 	background:linear-gradient(to bottom,#444444,#999999);
-	animation: mymove 5s infinite;
 	
 }
+#transition {
+	-moz-transition: 3s linear;
+	
+}
+#transition:hover {
+	padding-left: 55%;
+	animation: mymove 5s infinite;
 
+
+}
 #sandbox h1{
 	margin: 0px 0px 20px 0px;
 	font-size: 56px;
@@ -44,6 +52,6 @@ body {
 
 @keyframes mymove {
    		 0%  { opacity:0; }
-		50%  { opacity:0.5; }
-    		100% { opacity:1; }
+		50%  { opacity:0.5;}
+    	100% { opacity:1; }
 }
