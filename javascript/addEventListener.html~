@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<title>AddEventListener</title>
+   </head>
+   <body>
+	<form>
+  		Echo con Eventos
+  		<input type="text" id="form"/>
+  	<br/>
+	</form>
+	<p id="echo"></p>
+    <script type="text/javascript" charset="utf-8" src="addEventListener.js"></script>
+   </body>
+</html>
